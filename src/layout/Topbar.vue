@@ -4,11 +4,18 @@
     <ThemeToggle />
  
 </template>
+ 
 <script>
-import ThemeToggle from '@/components/ThemeToggle.vue'
 export default {
   name: 'Topbar',
-  components: { ThemeToggle },
+  data() {
+    return {
+      links: [
+        { label: 'Home', to: '/' }, 
+        { label: 'About', to: '/aboutview' }, 
+        // { label: 'Service', to: '/serviceview' }, 
+      ],
+    }
+  },
 }
 </script>
-
