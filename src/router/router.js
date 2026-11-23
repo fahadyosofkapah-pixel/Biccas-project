@@ -9,7 +9,7 @@ export const routes = [
     component: Layout,
     children: [
       { path: '', component: HomeView }, 
-    //   { path: '/aboutview', component: Aboutview }, 
+      { path: '/aboutview', component: Aboutview }, 
     //   { path: '/serviceview', component: serviceVue }, 
     ],
   },
