@@ -1,18 +1,24 @@
 <template>
-     <div class="flex flex-1 flex-col overflow-hidden">
-      <Topbar />
- <main class="flex-1 overflow-y-auto p-6">
-        <router-view />
-      </main>
-    </div>
+  <div class="flex min-h-screen flex-col">
+    <Topbar />
+
+    <main class="flex-1 p-6">
+      <router-view />
+    </main>
+
+    <Footer />
+  </div>
 </template>
 
 <script>
-import footer from './footer.vue'
-import Topbar from './Topbar.vue'
+import Footer from './footer.vue'
+import Topbar from './navbar.vue'
+
 export default {
   name: 'Layout',
-  components: { footer, Topbar },
+  components: {
+    Footer,
+    Topbar,
+  },
 }
-
 </script>

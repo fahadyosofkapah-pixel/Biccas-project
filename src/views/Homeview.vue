@@ -1,17 +1,14 @@
 <template>
-  <div class="flex h-full items-center justify-center">
-    <DemoCard
-      title="Hello Tailwind"
-      body="This card switches with the theme."
-    />
-
-</div>
+<HeroSection /> 
 </template>
 <script>
 import DemoCard from '../components/DemoCard.vue'
+import HeroSection from '../components/HeroSection.vue'
+import BaseButton from '../components/BaseButton.vue'
 
 export default {
   name: 'HomeView',
-  components: { DemoCard },
-}
+  components: { DemoCard , HeroSection,BaseButton },
+} 
 </script>
+ 
