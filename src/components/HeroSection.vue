@@ -29,7 +29,7 @@
     <div class="flex justify-center">
       <div class="flex h-72 w-full max-w-md items-center justify-center rounded-2xl bg-green-100">
         <span class="text-lg font-semibold text-green-700">
-          <img src="../assets/8190ac5d85f014c54ca07d5dd60cffae2ebbf9c0 (1).png" alt="">
+          <img src="../assets/man.png" alt="">
         </span>
       </div>
     </div>

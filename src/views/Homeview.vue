@@ -2,13 +2,12 @@
 <HeroSection /> 
 </template>
 <script>
-import DemoCard from '../components/DemoCard.vue'
 import HeroSection from '../components/HeroSection.vue'
 import BaseButton from '../components/BaseButton.vue'
-
+import Cards from '../components/Cards.vue'
 export default {
   name: 'HomeView',
-  components: { DemoCard , HeroSection,BaseButton },
+  components: {HeroSection,BaseButton,Cards },
 } 
 </script>
  
