@@ -1,6 +1,6 @@
 
 <template>
-  <section class="grid min-h-[550px] items-center gap-10 px-6 py-16 md:grid-cols-2 md:px-12">
+  <section class="grid min-h-[#550px] items-center gap-10 px-6 py-16 md:grid-cols-2 md:px-12">
 
     <!-- Left Side: Text Content -->
     <div>
@@ -29,7 +29,7 @@
     <div class="flex justify-center">
       <div class="flex h-100% w-full max-w-md items-center justify-center rounded-md bg-green-300">
         <span class="text-lg font-semibold text-green-700">
-          <img src="../assets/man.png" alt="" class=" rounded-lg">
+          <img src="../assets/man.png" alt="" class=" rounded-lg mt-2.5">
         </span>
       </div>
     </div>
