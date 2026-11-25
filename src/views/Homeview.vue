@@ -1,6 +1,7 @@
 <template>
 <HeroSection />
 <support />
+<cards />
 </template>
 <script>
 import HeroSection from '../components/HeroSection.vue'
@@ -9,13 +10,13 @@ import Cards from '../components/Cards.vue'
 import support from '../components/support.vue';
 import Benifit from '../components/Benifit.vue';
 import features from '../components/features.vue';
-import plan from '../components/plan.vue';
+import planCard from '../components/PlanCard.vue';
 import Saying from '../components/Saying.vue';
 
 export default {
   name: 'HomeView',
   components: { Cards,HeroSection,BaseButton,
-   Benifit, features,plan,support,Saying
+   Benifit, features,planCard,support,Saying
 
    },
 } 
