@@ -71,24 +71,12 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
-<<<<<<< HEAD
-import Benifit from './Benifit.vue';
-import planCard from './PlanCard.vue';
-import Saying from './Saying.vue';
-import support from './support.vue';
-import features from './features.vue';
-export default {
-  name: 'HeroSection',
-  components: {
-    BaseButton,features, support,Saying,planCard,Benifit
-=======
-
+import BaseButton from './BaseButton.vue' 
 export default {
   name: 'HeroSection',
   components: {
     BaseButton, 
->>>>>>> 41982f6d457687908c02e734c092285daad41fe3
+ 
   },
 }
 </script>
