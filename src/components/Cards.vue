@@ -107,11 +107,11 @@
 
         <div class="rounded-xl bg-gray-50 p-5">
           <ul class="space-y-4 text-xs text-gray-900">
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;All the features of pro plan</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Account success Manager</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Single Sign-On (SSO)</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Co-conception program</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Collaboration-Soon</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark"> All the features of pro plan</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark" > Account success Manager</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark"  >Single Sign-On (SSO)</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark"  Co-conception program</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark"  Collaboration-Soon</li>
           </ul>
 
           <button class="mt-5 w-full rounded-xl bg-white py-3 text-xs font-semibold text-[#54be96] shadow-md">

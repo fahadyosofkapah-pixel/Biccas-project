@@ -1,15 +1,14 @@
-<template>
-<<<<<<< HEAD
+<template> 
 <HeroSection />
 <support />
-<cards />
-=======
-  <HeroSection />
-  <support />
+
+   
   <features />
 <Benifit/>
+<cards />
 
->>>>>>> 41982f6d457687908c02e734c092285daad41fe3
+
+
 </template>
 <script>
 import HeroSection from '../components/HeroSection.vue'
