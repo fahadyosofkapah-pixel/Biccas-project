@@ -42,13 +42,12 @@
 
       </div>
     </div>
-
-
+    
 <div class="flex flex-col gap-6 mb-4.5 ml-3">
 
   <!-- Publishing -->
   <div class="flex items-start gap-4">
-    <img src="../assets/vector.png" alt="">
+    <img src="../assets/vector.png" alt="" class=" bg-[#FFFFFF]  p-4 shadow-xl">
     <div>
       <span class="font-bold text-[#191A15]">Publishing</span>
       <p class="text-sm text-[#A6A6A6]">
@@ -60,7 +59,7 @@
   </div>
   <!-- Analytics -->  
   <div class="flex items-start gap-4">
-    <img src="../assets/pie-chart 1.png" alt="">
+    <img src="../assets/pie-chart 1.png" alt="" class="bg[#FFFFFF] p-4 shadow-xl ">
     <div>
       <span class="font-bold text-[#191A15]">Analytics</span>
       <p class="text-sm text-[#A6A6A6]">
@@ -70,7 +69,7 @@
   </div>
   <!-- Engagement -->
   <div class="flex items-start gap-4">
-    <img src="../assets/vector (1).png" alt="">
+    <img src="../assets/vector (1).png" alt="" class="bg[#FFFFFF] p-4 shadow-xl">
     <div>
       <span class="font-bold text-[#191A15]">Engagement</span>
       <p class="text-sm text-[#A6A6A6 ]">
@@ -87,6 +86,7 @@
 
 <script>
 import BaseButton from './BaseButton.vue'
+<<<<<<< HEAD
 import Benifit from './Benifit.vue';
 import planCard from './PlanCard.vue';
 import Saying from './Saying.vue';
@@ -96,6 +96,14 @@ export default {
   components: {
     BaseButton, features, Saying, planCard, Benifit
   },
+=======
+ 
+export default {
+  name: 'support',
+  components: {
+    BaseButton  
+>>>>>>> 41982f6d457687908c02e734c092285daad41fe3
 }
 
+}
 </script>

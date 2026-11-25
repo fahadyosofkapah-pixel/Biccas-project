@@ -78,11 +78,11 @@
 
         <div class="rounded-xl bg-white p-5 text-gray-900">
           <ul class="space-y-4 text-xs">
-            <li>🟢 &nbsp;4 Users</li>
-            <li>🟢 &nbsp;All apps</li>
-            <li>🟢 &nbsp;Unlimited editable exports</li>
-            <li>🟢 &nbsp;Folders and collaboration</li>
-            <li>🟢 &nbsp;All incoming apps</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;4 Users</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;All apps</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Unlimited editable exports</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Folders and collaboration</li>
+            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;All incoming apps</li>
           </ul>
 
           <button class="mt-5 w-full rounded-xl bg-[#54be96] py-3 text-xs font-semibold text-white">
