@@ -1,5 +1,5 @@
 
-<template>
+<template> 
   <section class="grid min-h-[#550px] items-center gap-10 px-6 py-16 md:grid-cols-2 md:px-12">
 
     <!-- Left Side: Text Content -->
@@ -28,13 +28,10 @@
     <!-- Right Side: Image -->
     <div class="flex justify-center">
       <div class="flex h-100% w-full max-w-md items-center justify-center rounded-md bg-green-300">
-        <span class="text-lg font-semibold text-green-700">
+        <span class="text-lg font-semibold text-green-700"> 
           <img src="../assets/man.png" alt="" class=" rounded-lg mt-2.5">
         </span>
       </div>
-    </div>
-    <div class="  justify-center items-center md:grid-cols-2 ">
-     
      <h2 class="mt-6  mr-0   text-4xl  text-center font-bold leading-tight text-slate-900 md:text-2xl" >More than 25,000 teams use Collabs</h2>
      <div class="mt-10 text-center">
 
@@ -74,12 +71,12 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
-
+import BaseButton from './BaseButton.vue' 
 export default {
   name: 'HeroSection',
   components: {
     BaseButton, 
+ 
   },
 }
 </script>

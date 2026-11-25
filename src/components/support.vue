@@ -1,4 +1,4 @@
-<template>
+<template> 
   <section class=" bg-[#F9F8FE] w-full min-h-[#541px] grid md:grid-cols-2 items-center max-auto gap-12 px-6 py-16">
     <div class=" items-center ml-8">
 
@@ -85,12 +85,12 @@
 </template>
 
 <script>
-import BaseButton from './BaseButton.vue'
+import BaseButton from './BaseButton.vue' 
  
 export default {
   name: 'support',
   components: {
-    BaseButton  
+    BaseButton 
 }
 
 }
