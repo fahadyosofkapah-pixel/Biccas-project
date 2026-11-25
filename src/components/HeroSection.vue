@@ -75,15 +75,11 @@
 
 <script>
 import BaseButton from './BaseButton.vue'
-import Benifit from './Benifit.vue';
-import plan from './plan.vue';
-import Saying from './Saying.vue';
-import support from './support.vue';
-import features from './features.vue';
+
 export default {
   name: 'HeroSection',
   components: {
-    BaseButton,features, support,Saying,plan,Benifit
+    BaseButton, 
   },
 }
 </script>

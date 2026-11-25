@@ -42,13 +42,12 @@
 
       </div>
     </div>
-
-
+    
 <div class="flex flex-col gap-6 mb-4.5 ml-3">
 
   <!-- Publishing -->
   <div class="flex items-start gap-4">
-    <img src="../assets/vector.png" alt="">
+    <img src="../assets/vector.png" alt="" class=" bg-[#FFFFFF]  p-4 shadow-xl">
     <div>
       <span class="font-bold text-[#191A15]">Publishing</span>
       <p class="text-sm text-[#A6A6A6]">
@@ -60,7 +59,7 @@
   </div>
   <!-- Analytics -->  
   <div class="flex items-start gap-4">
-    <img src="../assets/pie-chart 1.png" alt="">
+    <img src="../assets/pie-chart 1.png" alt="" class="bg[#FFFFFF] p-4 shadow-xl ">
     <div>
       <span class="font-bold text-[#191A15]">Analytics</span>
       <p class="text-sm text-[#A6A6A6]">
@@ -70,7 +69,7 @@
   </div>
   <!-- Engagement -->
   <div class="flex items-start gap-4">
-    <img src="../assets/vector (1).png" alt="">
+    <img src="../assets/vector (1).png" alt="" class="bg[#FFFFFF] p-4 shadow-xl">
     <div>
       <span class="font-bold text-[#191A15]">Engagement</span>
       <p class="text-sm text-[#A6A6A6 ]">
@@ -87,15 +86,12 @@
 
 <script>
 import BaseButton from './BaseButton.vue'
-import Benifit from './Benifit.vue';
-import plan from './plan.vue';
-import Saying from './Saying.vue';
-import features from './features.vue';
+ 
 export default {
   name: 'support',
   components: {
-    BaseButton, features, Saying, plan, Benifit
-  },
+    BaseButton  
 }
 
+}
 </script>

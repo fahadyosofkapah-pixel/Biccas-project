@@ -1,6 +1,9 @@
 <template>
-<HeroSection />
-<support />
+  <HeroSection />
+  <support />
+  <features />
+<Benifit/>
+
 </template>
 <script>
 import DemoCard from '../components/DemoCard.vue'
