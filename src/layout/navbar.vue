@@ -1,10 +1,10 @@
 <template>
   <nav class="flex items-center justify-between   px-8 py-5 text-[#1A1A1A]">
-    <h1 class="text-2xl font-bold text[]">Biccas</h1>
+    <h1 class="text-2xl font-bold text-[#54BD95]">Biccas</h1>
 
-   <div class="flex items-center gap-12 mr-15">
+   <div class="flex items-center text-gray-400 gap-12 mr-15">
 
-  <router-link to="/">Home</router-link>
+  <router-link to="/" class="text-black">Home</router-link>
 
   <router-link to="/about">About Us</router-link>
 

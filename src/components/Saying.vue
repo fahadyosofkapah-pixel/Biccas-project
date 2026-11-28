@@ -1,6 +1,6 @@
 
 <template>
-  <section class="min-h-screen bg-[#171e2b] flex items-center justify-center px-6 py-16">
+  <section class="min-h-screen w-full bg-[#171e2b] flex items-center justify-center px-6 py-16">
 
     <div class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 

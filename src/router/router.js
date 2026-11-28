@@ -1,6 +1,7 @@
 import Layout from '../layout/index.vue'
 import HomeView from '../views/Homeview.vue'
 import AboutView from '../views/AboutView.vue'
+ 
 
 export const routes = [
   {
@@ -8,8 +9,8 @@ export const routes = [
     component: Layout,
     children: [
       { path: '', component: HomeView },
-      { path: 'about', component: AboutView} 
-
+      { path: 'about', component: AboutView}
+      
     ],
   },
 ]
