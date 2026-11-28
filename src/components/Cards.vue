@@ -106,21 +106,16 @@
         </div>
 
         <div class="rounded-xl bg-gray-50 p-5">
-          <ul class="space-y-4 text-xs text-gray-900">
-<<<<<<< HEAD
-            <li><img src="../assets/Checkmark.png" alt="Checkmark"> All the features of pro plan</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" > Account success Manager</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark"  >Single Sign-On (SSO)</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark"  >Co-conception program</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" > Collaboration-Soon</li>
-=======
+          <ul class="space-y-4 text-xs text-gray-900" >  
+          
             <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> All the features of pro plan</li>
             <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Account success Manager</li>
             <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/>Single Sign-On (SSO)</li>
             <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/>Co-conception program</li>
             <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Collaboration-Soon</li>
->>>>>>> 7943494f0664107d52549e60c6c60e399d5e4d62
+   
           </ul>
+
 
           <button class="mt-5 w-60 rounded-xl bg-white py-3 text-xs font-semibold text-[#54be96] shadow-md">
             Goto Business
