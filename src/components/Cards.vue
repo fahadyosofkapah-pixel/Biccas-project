@@ -45,14 +45,14 @@
 
         <div class="rounded-xl bg-gray-50 p-5">
           <ul class="space-y-4 text-xs text-gray-900">
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;2 Users</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;2 Files</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Public Share & Comments</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Chat Support</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;New income apps</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> 2 Users</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> 2 Files</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Public Share & Comments</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Chat Support</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> New income apps</li>
           </ul>
 
-          <button class="mt-5 w-full rounded-xl bg-white py-3 text-xs font-semibold text-[#54be96] shadow-md">
+          <button class="mt-5 w-60 rounded-xl bg-white py-3 text-xs font-semibold text-[#54be96] shadow-md">
             Signup for free
           </button>
         </div>
@@ -78,14 +78,14 @@
 
         <div class="rounded-xl bg-white p-5 text-gray-900">
           <ul class="space-y-4 text-xs">
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;4 Users</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;All apps</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Unlimited editable exports</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;Folders and collaboration</li>
-            <li><img src="../assets/Checkmark.png" alt="Checkmark" class="inline-block w-4 h-4 mr-2"> &nbsp;All incoming apps</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> 4 Users</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> All apps</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Unlimited editable exports</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Folders and collaboration</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> All incoming apps</li>
           </ul>
 
-          <button class="mt-5 w-full rounded-xl bg-[#54be96] py-3 text-xs font-semibold text-white">
+          <button class="mt-5 w-60 rounded-xl bg-[#54be96] py-3 text-xs font-semibold text-white">
             Go to pro
           </button>
         </div>
@@ -107,14 +107,22 @@
 
         <div class="rounded-xl bg-gray-50 p-5">
           <ul class="space-y-4 text-xs text-gray-900">
+<<<<<<< HEAD
             <li><img src="../assets/Checkmark.png" alt="Checkmark"> All the features of pro plan</li>
             <li><img src="../assets/Checkmark.png" alt="Checkmark" > Account success Manager</li>
             <li><img src="../assets/Checkmark.png" alt="Checkmark"  >Single Sign-On (SSO)</li>
             <li><img src="../assets/Checkmark.png" alt="Checkmark"  >Co-conception program</li>
             <li><img src="../assets/Checkmark.png" alt="Checkmark" > Collaboration-Soon</li>
+=======
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> All the features of pro plan</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Account success Manager</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/>Single Sign-On (SSO)</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/>Co-conception program</li>
+            <li class="flex text-center items-center gap-2.5"><img src="../assets/check-icon.png" alt="" class="h-6 w-6 shrink-0"/> Collaboration-Soon</li>
+>>>>>>> 7943494f0664107d52549e60c6c60e399d5e4d62
           </ul>
 
-          <button class="mt-5 w-full rounded-xl bg-white py-3 text-xs font-semibold text-[#54be96] shadow-md">
+          <button class="mt-5 w-60 rounded-xl bg-white py-3 text-xs font-semibold text-[#54be96] shadow-md">
             Goto Business
           </button>
         </div>

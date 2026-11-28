@@ -32,13 +32,13 @@
           <img src="../assets/man.png" alt="" class=" rounded-lg mt-2.5">
         </span>
       </div>
-     <h2 class="mt-6  mr-0   text-4xl  text-center font-bold leading-tight text-slate-900 md:text-2xl" >More than 25,000 teams use Collabs</h2>
-     <div class="mt-10 text-center">
+      </div>
+       <div class=" text-center">
+     <h2 class="ml-24 mr-0   text-4xl  text-center font-bold leading-tight text-slate-900 md:text-2xl" >More than 25,000 teams use Collabs</h2>
+ 
+  <div class="flex flex-wrap items-center justify-center gap-10 mt-6">
 
-  
-  <div class="flex flex-wrap items-center justify-center gap-8">
-
-    <!-- icon 1-->
+    <!-- icon 1--> 
     <div class="flex items-center gap-2">
       <img src="../assets/Group 140.png" alt="" class="h-8 w-8 object-contain">
       <p class="text-[#A6A6A6]">Unsplash</p>
@@ -62,7 +62,7 @@
       <p class="text-[#A6A6A6]">descript</p>
     </div>
 
-  </div>
+  
 </div>
     </div>
  
