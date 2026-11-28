@@ -2,11 +2,12 @@
 <HeroSection />
 <support />
 
-   
+
   <features />
 <Benifit/>
 <cards />
 <saying />
+
 
 </template>
 <script>

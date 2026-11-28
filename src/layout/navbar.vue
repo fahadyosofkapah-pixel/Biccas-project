@@ -6,21 +6,21 @@
 
   <router-link to="/">Home</router-link>
 
-  <router-link to="/about">About Us</router-link>
+     
 
-  <router-link to="/product">Product</router-link>
-
-  <router-link to="/faq">FAQ</router-link>
+  <a href="#features">Product</a>
+  <a href="#Benifit">FAQ</a>
+   <a href="#saying">About Us </a> 
 
   <router-link to="/login">Login</router-link>
 
-  <router-link to="/signup">
+  <router-link to="/">
     <BaseButton
   text="Sign Up"
   color="bg-green-500 text-white hover:bg-green-600"
   size="px-5 py-2 text-sm"
 />
-
+<a href=""></a>
   </router-link>
 
 </div>
