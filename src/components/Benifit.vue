@@ -1,5 +1,5 @@
 <template>
-    <section class="mx-auto max-w-6xl px-6 py-16">
+    <section id="Benifit"  class="mx-auto max-w-6xl px-6 py-16">
         <div class="grid items-center gap-12 md:grid-cols-2">
 
             <!-- Bidix -->

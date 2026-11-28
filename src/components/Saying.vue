@@ -1,12 +1,12 @@
-
 <template>
-  <section class="min-h-screen bg-[#171e2b] flex items-center justify-center px-6 py-16">
-
-    <div class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-
+  <section id="saying"
+    class="w-full bg-[#171e2b] flex items-center justify-center px-6 py-16"
+  >
+    <div
+      class="max-w-6xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center"
+    >
       <!-- Left Side -->
       <div class="text-white">
-
         <h1 class="text-3xl md:text-4xl font-bold leading-tight mb-5">
           People are Saying
           <br />
@@ -32,7 +32,6 @@
 
         <!-- Avatars -->
         <div class="flex items-center gap-4">
-
           <img
             src="../assets/Ellipse 54.png"
             class="w-11 h-11 rounded-full border-2 border-gray-500"
@@ -46,7 +45,7 @@
           />
 
           <img
-           src="../assets/Ellipse 56.png"
+            src="../assets/Ellipse 56.png"
             class="w-11 h-11 rounded-full border-2 border-gray-500"
             alt="Person 3"
           />
@@ -57,32 +56,36 @@
             alt="Person 4"
           />
 
-          <img src="../assets/Group 215.png" alt="Plus Icon"
+          <img
+            src="../assets/Group 215.png"
+            alt="Plus Icon"
             class="w-11 h-11 rounded-full border border-white flex items-center justify-center"
-          >
-        
-          
-
+          />
         </div>
       </div>
 
       <!-- Right Side Form -->
-      <div class="bg-[#222a3a] rounded-xl p-8 md:p-12 w-full max-w-md mx-auto">
-
+      <div
+        class="bg-[#222a3a] rounded-xl p-8 md:p-12 w-full max-w-md mx-auto"
+      >
         <!-- Logo -->
         <div class="flex flex-col items-center mb-8">
+          <img
+            src="../assets/Group (1).png"
+            alt="Logo"
+            class="w-16 h-16 mb-4"
+          />
 
-        <img src="../assets/Group (1).png" alt="Logo" class="w-16 h-16 mb-4" />
-            
           <h2 class="text-white text-xl font-medium mt-2">
             Get Started
           </h2>
-
         </div>
 
         <!-- Form -->
-        <form @submit.prevent="submitForm" class="space-y-5">
-
+        <form
+          @submit.prevent="submitForm"
+          class="space-y-5"
+        >
           <div>
             <label class="block text-white text-xs mb-3">
               Email
@@ -125,22 +128,20 @@
           <p class="text-center text-[#50BD99] text-sm">
             Thank you! Your request has been submitted.
           </p>
-
         </form>
-
       </div>
-
     </div>
   </section>
 </template>
+
 <script>
-import BaseButton from './BaseButton.vue' 
- 
+import BaseButton from './BaseButton.vue'
+
 export default {
   name: 'saying',
-  components: {
-    BaseButton 
-}
 
+  components: {
+    BaseButton
+  }
 }
 </script>

@@ -18,9 +18,11 @@
       <div class="flex flex-wrap items-center gap-4">
         <BaseButton text="Get Started" />
 
+<img src="../assets/play.png" alt="" class="h-6 w-6 ml-3"/>  
 <BaseButton
-  text="Try Free"
-  color="bg-white text-green-600 border border-green-500 hover:bg-green-50"
+
+  text="View Demo"
+  color="bg-white text-black "
 />  
       </div>
     </div>
@@ -28,43 +30,58 @@
     <!-- Right Side: Image -->
     <div class="flex justify-center">
       <div class="flex h-100% w-full max-w-md items-center justify-center rounded-md bg-green-300">
+        <div class="rounded-md bg-white px-8 shadow-md">
+           <p class="text-sm text-gray-500 mt-2 ml-3 flex items-center justify-center">
+                Enter amount
+            </p>
+            <h2 class="text-xl font-semibold">
+                $450..00
+            </h2>
+        </div>
         <span class="text-lg font-semibold text-green-700"> 
           <img src="../assets/man.png" alt="" class=" rounded-lg mt-2.5">
         </span>
+         
       </div>
       </div>
+      
        <div class=" text-center">
      <h2 class="ml-24 mr-0   text-4xl  text-center font-bold leading-tight text-slate-900 md:text-2xl" >More than 25,000 teams use Collabs</h2>
  
-  <div class="flex flex-wrap items-center justify-center gap-10 mt-6">
+  <div class="flex flex-nowrap justify-center gap-20 mt-6">
 
     <!-- icon 1--> 
     <div class="flex items-center gap-2">
-      <img src="../assets/Group 140.png" alt="" class="h-8 w-8 object-contain">
+      <img src="../assets/Group 140.png" alt="" class="h-8 w-8  ">
       <p class="text-[#A6A6A6]">Unsplash</p>
     </div>
 
     <!--icon 2 -->
     <div class="flex items-center gap-2">
-      <img src="../assets/N.png" alt="" class="h-8 w-8 object-contain">
+      <img src="../assets/N.png" alt="" class="h-8 w-8  ">
       <p class="text-[#A6A6A6]">Notion</p>
     </div>
 
     <!--icon 3 -->
     <div class="flex items-center gap-2">
-      <img src="../assets/Rectangle 71.png" alt="" class="h-8 w-8 object-contain">
+      <img src="../assets/Rectangle 71.png" alt="" class="h-8 w-8  ">
       <p class="text-[#A6A6A6]">INTERCOM</p>
     </div>
 
     <!--icon 4 -->
     <div class="flex items-center gap-2">
-      <img src="../assets/Union.png" alt="" class="h-8 w-8 object-contain">
+      <img src="../assets/Union.png" alt="" class="h-8 w-8 ">
       <p class="text-[#A6A6A6]">descript</p>
     </div>
-
+<!-- icon 5 -->
+    <div class="flex items-center gap-2">
+      <img src="../assets/Group 320.png" alt="" class="h-8 w-8 bg-[#A6A6A6]  ">
+      <p class="text-[#A6A6A6]">grammarly</p>
+    </div>
+  </div>
   
 </div>
-    </div>
+    
  
 
   </section>
