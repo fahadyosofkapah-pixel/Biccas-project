@@ -1,5 +1,5 @@
  <template>
-  <section class="mx-auto max-w-6xl px-6 py-16">
+  <section id="features" class="mx-auto max-w-6xl px-6 py-16">
     <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
       <h1 class="max-w-xs text-4xl font-bold leading-tight text-neutral-900">
         Our Features you can get

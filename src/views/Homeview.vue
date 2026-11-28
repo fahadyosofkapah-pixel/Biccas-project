@@ -2,12 +2,14 @@
 <HeroSection />
 <support />
 
-   
+
   <features />
 <Benifit/>
 <cards />
 <saying />
  </template>
+
+
 <script>
 import HeroSection from '../components/HeroSection.vue'
 import BaseButton from '../components/BaseButton.vue' 
